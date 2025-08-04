@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript na página HTML</h1>
+    <p id="demo"></p>
+
+    <p>Inspecione o código HTML e Javascript. Acesse a aba "Console".</p>
+    <p>O texto "Olá! Este texto foi acrescentado pelo Javascript" deveria aparecer em verde. Tente achar o erro no código.</p>
+    <p>Depois altere o código para exibir a mensagem: "Olá! &lt;seu_nome&gt;"</p>
+    <p>Também altere a cor do texto</p>
+    <script>
+        document.getElementById("demo").innerHTML = "Olá! Este texto foi acrescentado pelo Javascript"
+        document.GetElementById("demo").style.color = "green"
+    </script>
+</body>
+</html>
